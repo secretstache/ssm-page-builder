@@ -1,0 +1,12 @@
+.acf-field.column-widths li {
+  position: relative;
+  margin-left: 25px;
+}
+
+.acf-field.column-widths .acf-radio-list input {
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
