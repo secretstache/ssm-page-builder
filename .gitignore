@@ -1,5 +1,6 @@
 *
 !.gitignore
+!README.md
 !src/
 !src/lib/
 !src/lib/SSMPB/
