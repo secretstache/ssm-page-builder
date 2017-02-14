@@ -278,8 +278,8 @@
                         {
                             "layout": "horizontal",
                             "choices": {
-                                "12": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSM\/layout-thumbnails\/12.png\" alt=\"12\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>",
-                                "8": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSM\/layout-thumbnails\/8.png\" alt=\"8\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>"
+                                "12": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSMPB\/inc\/images\/layout-thumbnails\/12.png\" alt=\"12\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>",
+                                "8": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSMPB\/inc\/images\/layout-thumbnails\/8.png\" alt=\"8\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>"
                             },
                             "default_value": 12,
                             "other_choice": 0,
@@ -518,9 +518,9 @@
                         {
                             "layout": "horizontal",
                             "choices": {
-                                "6_6": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSM\/layout-thumbnails\/6_6.png\" alt=\"6\/6\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>",
-                                "8_4": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSM\/layout-thumbnails\/8_4.png\" alt=\"8\/4\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>",
-                                "4_8": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSM\/layout-thumbnails\/4_8.png\" alt=\"4\/8\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>"
+                                "6_6": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSMPB\/inc\/images\/layout-thumbnails\/6_6.png\" alt=\"6\/6\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>",
+                                "8_4": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSMPB\/inc\/images\/layout-thumbnails\/8_4.png\" alt=\"8\/4\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>",
+                                "4_8": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSMPB\/inc\/images\/layout-thumbnails\/4_8.png\" alt=\"4\/8\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>"
                             },
                             "default_value": "6_6",
                             "other_choice": 0,
@@ -780,9 +780,9 @@
                         {
                             "layout": "horizontal",
                             "choices": {
-                                "4_4_4": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSM\/layout-thumbnails\/4_4_4.png\" alt=\"4\/4\/4\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>",
-                                "6_3_3": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSM\/layout-thumbnails\/6_3_3.png\" alt=\"6\/3\/3\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>",
-                                "3_3_6": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSM\/layout-thumbnails\/3_3_6.png\" alt=\"3\/6\/6\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>"
+                                "4_4_4": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSMPB\/inc\/images\/layout-thumbnails\/4_4_4.png\" alt=\"4\/4\/4\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>",
+                                "6_3_3": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSMPB\/inc\/images\/layout-thumbnails\/6_3_3.png\" alt=\"6\/3\/3\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>",
+                                "3_3_6": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSMPB\/inc\/images\/layout-thumbnails\/3_3_6.png\" alt=\"3\/6\/6\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>"
                             },
                             "default_value": "4_4_4",
                             "other_choice": 0,
@@ -1042,7 +1042,7 @@
                         {
                             "layout": "horizontal",
                             "choices": {
-                                "3_3_3_3": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSM\/layout-thumbnails\/3_3_3_3.png\" alt=\"3\/3\/3\/3\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>"
+                                "3_3_3_3": "<img class=\"layout-thumbs\" src=\"\/wp-content\/themes\/sage\/src\/lib\/SSMPB\/inc\/images\/layout-thumbnails\/3_3_3_3.png\" alt=\"3\/3\/3\/3\" width=\"100px\" height=\"auto\" style=\"border: 1px solid #ddd;\" \/>"
                             },
                             "default_value": "3_3_3_3",
                             "other_choice": 0,

@@ -2,6 +2,22 @@
 
 namespace SSMPB;
 
+add_filter('acf/settings/load_json',  __NAMESPACE__ . '\\my_acf_json_load_point');
+/**
+ *
+ * Add our acf-json to the activated theme
+ *
+ */
+function my_acf_json_load_point( $paths ) {
+
+    $paths[] = get_stylesheet_directory() . '/src/lib/SSMPB/inc/acf-json';
+
+    return $paths;
+
+}
+
+
+
 add_filter('acf/fields/flexible_content/layout_title/name=sections', __NAMESPACE__ . '\\acf_layout_title', 10, 4);
 /**
  * Update The Flexible Content Label
