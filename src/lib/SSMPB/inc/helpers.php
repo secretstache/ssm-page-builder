@@ -11,7 +11,7 @@ add_filter('acf/settings/save_json',  __NAMESPACE__ . '\\my_acf_json_save_point'
 function my_acf_json_save_point( $path ) {
 
 
-    $path = get_stylesheet_directory() . '/src/lib/SSMPB/inc/acf-json';
+    $path = SSMPB_INC . 'acf-json';
 
     return $path;
 
