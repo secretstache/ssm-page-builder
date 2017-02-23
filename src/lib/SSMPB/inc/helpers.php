@@ -2,17 +2,18 @@
 
 namespace SSMPB;
 
-add_filter('acf/settings/load_json',  __NAMESPACE__ . '\\my_acf_json_load_point');
+add_filter('acf/settings/save_json',  __NAMESPACE__ . '\\my_acf_json_save_point');
 /**
  *
  * Add our acf-json to the activated theme
  *
  */
-function my_acf_json_load_point( $paths ) {
+function my_acf_json_save_point( $path ) {
 
-    $paths[] = get_stylesheet_directory() . '/src/lib/SSMPB/inc/acf-json';
 
-    return $paths;
+    $path = get_stylesheet_directory() . '/src/lib/SSMPB/inc/acf-json';
+
+    return $path;
 
 }
 
