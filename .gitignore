@@ -6,7 +6,7 @@
 acf-json/.DS_Store
 !src/
 !src/lib/
-!src/lib/SSMPB/i
+!src/lib/SSMPB/
 !src/lib/SSMPB/*
 src/lib/SSMPB/.DS_Store
 !src/lib/SSMPB/inc/
@@ -21,11 +21,11 @@ src/lib/SSMPB/inc/images/layout-builder/.DS_Store
 !src/lib/SSMPB/inc/page-builder/
 !src/lib/SSMPB/inc/page-builder/*
 src/lib/SSMPB/inc/page-builder/.DS_Store
+!src/lib/SSMPB/inc/page-builder/sections/
+!src/lib/SSMPB/inc/page-builder/sections/*
 !src/lib/SSMPB/inc/page-builder/components/
 !src/lib/SSMPB/inc/page-builder/components/*
 src/lib/SSMPB/inc/page-builder/components/.DS_Store
-!src/lib/SSMPB/inc/page-builder/sections/
-!src/lib/SSMPB/inc/page-builder/sections/*
 src/lib/SSMPB/inc/page-builder/sections/.DS_Store
 !src/lib/SSMPB/inc/scripts/
 !src/lib/SSMPB/inc/scripts/*
