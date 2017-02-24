@@ -1,0 +1,3 @@
+<?php
+
+// Beat it nerds
