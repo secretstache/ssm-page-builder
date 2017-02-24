@@ -5,6 +5,7 @@
 !acf-json/*
 acf-json/.DS_Store
 !src/
+!src/ssmpb.php
 !src/lib/
 !src/lib/SSMPB/
 !src/lib/SSMPB/*
