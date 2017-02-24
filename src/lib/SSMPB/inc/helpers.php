@@ -2,23 +2,6 @@
 
 namespace SSMPB;
 
-add_filter('acf/settings/save_json',  __NAMESPACE__ . '\\my_acf_json_save_point');
-/**
- *
- * Add our acf-json to the activated theme
- *
- */
-function my_acf_json_save_point( $path ) {
-
-
-    $path = SSMPB_INC . 'acf-json';
-
-    return $path;
-
-}
-
-
-
 add_filter('acf/fields/flexible_content/layout_title/name=sections', __NAMESPACE__ . '\\acf_layout_title', 10, 4);
 /**
  * Update The Flexible Content Label
@@ -175,7 +158,7 @@ function do_module( $template_args = array() ) {
 
     echo '<div' . module_id_classes( $m_classes ) . '>';
 
-        get_template_part( 'templates/page-builder/components', $template_args );
+        hm_get_template_part( 'templates/page-builder/components', $template_args );
 
     echo '</div>';
 
@@ -187,7 +170,7 @@ function do_module( $template_args = array() ) {
  * @param string filepart
  * @param mixed wp_args style argument list
  */
-function get_template_part( $file, $template_args = array(), $cache_args = array() ) {
+function hm_get_template_part( $file, $template_args = array(), $cache_args = array() ) {
     $template_args = wp_parse_args( $template_args );
     $cache_args = wp_parse_args( $cache_args );
     if ( $cache_args ) {

@@ -39,6 +39,12 @@ if ( have_rows( 'components' ) ) {
 
       SSMPB\get_template_part('templates/page-builder/components/form-component', $template_args ) ;
 
+    } elseif ( get_row_layout() == 'html_editor' ) {
+
+        echo 'stufffff';
+
+        SSMPB\get_template_part('templates/page-builder/components/html-component', $template_args ) ;
+
     }
 
     $c_i++;
