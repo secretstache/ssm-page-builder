@@ -14,6 +14,9 @@ src/lib/SSMPB/.DS_Store
 src/lib/SSMPB/inc/.DS_Store
 !src/lib/SSMPB/inc/images/
 !src/lib/SSMPB/inc/images/*
+!src/lib/SSMPB/inc/images/layout-thumbnails/
+!src/lib/SSMPB/inc/images/layout-thumbnails/*
+src/lib/SSMPB/inc/images/layout-thumbnails/.DS_Store
 src/lib/SSMPB/inc/images/.DS_Store
 !src/lib/SSMPB/inc/images/layout-builder/
 !src/lib/SSMPB/inc/images/layout-builder/*
