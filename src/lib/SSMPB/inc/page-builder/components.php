@@ -13,37 +13,39 @@ if ( have_rows( 'components' ) ) {
 
     if ( get_row_layout() == 'header' ) {
 
-      SSMPB\get_template_part('templates/page-builder/components/header-component', $template_args ) ;
+      SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/components/header-component.php', $template_args ) ;
 
     } elseif ( get_row_layout() == 'text_editor' ) {
 
-      SSMPB\get_template_part('templates/page-builder/components/text-editor-component', $template_args ) ;
+      SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/components/text-editor-component.php', $template_args ) ;
 
     } elseif ( get_row_layout() == 'headline' ) {
 
-      SSMPB\get_template_part('templates/page-builder/components/headline-component', $template_args ) ;
+      SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/components/headline-component.php', $template_args ) ;
 
     } elseif ( get_row_layout() == 'image' ) {
 
-      SSMPB\get_template_part('templates/page-builder/components/image-component', $template_args ) ;
+      SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/components/image-component.php', $template_args ) ;
 
     } elseif ( get_row_layout() == 'image_gallery' ) {
 
-      SSMPB\get_template_part('templates/page-builder/components/image-gallery-component', $template_args ) ;
+      SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/components/image-gallery-component.php', $template_args ) ;
 
     } elseif ( get_row_layout() == 'video' ) {
 
-      SSMPB\get_template_part('templates/page-builder/components/video-component', $template_args ) ;
+      SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/components/video-component.php', $template_args ) ;
 
     } elseif ( get_row_layout() == 'form' ) {
 
-      SSMPB\get_template_part('templates/page-builder/components/form-component', $template_args ) ;
+      SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/components/form-component.php', $template_args ) ;
 
     } elseif ( get_row_layout() == 'html_editor' ) {
 
-        echo 'stufffff';
+        SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/components/html-editor-component.php', $template_args ) ;
 
-        SSMPB\get_template_part('templates/page-builder/components/html-component', $template_args ) ;
+    } elseif ( get_row_layout() == 'related_content' ) {
+
+        SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/components/related-content-component.php', $template_args ) ;
 
     }
 

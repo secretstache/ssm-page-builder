@@ -2,7 +2,7 @@
 
 namespace SSMPB;
 
-add_filter('acf/fields/flexible_content/layout_title/name=sections', __NAMESPACE__ . '\\acf_layout_title', 10, 4);
+add_filter('acf/fields/flexible_content/layout_title/name=content_blocks', __NAMESPACE__ . '\\acf_layout_title', 10, 4);
 /**
  * Update The Flexible Content Label
  * @since 1.0.0
@@ -158,7 +158,7 @@ function do_module( $template_args = array() ) {
 
     echo '<div' . module_id_classes( $m_classes ) . '>';
 
-        hm_get_template_part( 'templates/page-builder/components', $template_args );
+        hm_get_template_part( SSMPB_INC . 'page-builder/components.php', $template_args );
 
     echo '</div>';
 

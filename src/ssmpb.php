@@ -10,7 +10,7 @@ define( 'SSMPB_INC_URI', trailingslashit( SSMPB_DIR_URI . 'inc' ) );
 require( SSMPB_INC . 'helpers.php');
 
 function do_page_builder( ) {
-    \get_template_part('templates/page-builder/sections');
+    \get_template_part( 'src/lib/SSMPB/inc/page-builder/content-blocks');
 }
 
 add_action('admin_enqueue_scripts', __NAMESPACE__ . '\\css');
