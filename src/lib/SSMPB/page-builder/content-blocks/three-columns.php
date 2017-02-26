@@ -7,7 +7,8 @@ if ( get_sub_field('status') == 0 )
 global $column_count;
 global $template_args;
 
-$column_count = 2;
+$column_count = 3;
+
 $template_args = array(
   'column_count' => $column_count
 );
@@ -20,14 +21,14 @@ echo '<section' . SSMPB\section_id_classes() . '>';
 
 SSMPB\maybe_do_section_header();
 
-if ( have_rows( 'two_column_modules' ) ) {
+if ( have_rows( 'three_column_modules' ) ) {
 
-  echo '<div class="row has-2-cols align-' . $alignment . '">';
+  echo '<div class="row has-3-cols align-' . $alignment . '">';
 
   $i = 1;
   $pluck = 0;
 
-  while ( have_rows( 'two_column_modules' ) ) {
+  while ( have_rows( 'three_column_modules' ) ) {
 
     the_row();
 
@@ -36,7 +37,7 @@ if ( have_rows( 'two_column_modules' ) ) {
 
     echo '<div class="small-12 medium-' . $grid_array[$pluck] . ' column col-' . $i . '">';
 
-      SSMPB\do_module( $template_args );
+      SSMPB\do_column( $template_args );
 
     echo '</div>';
 

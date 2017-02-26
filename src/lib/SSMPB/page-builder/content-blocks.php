@@ -18,27 +18,27 @@ if ( ! post_password_required() ) {
 
             if (get_row_layout() == 'wrapper_open') {
 
-                SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/content-blocks/wrapper-open.php');
+                SSMPB\hm_get_template_part( SSMPB_DIR . 'page-builder/content-blocks/wrapper-open.php');
 
             } elseif (get_row_layout() == 'one_column') {
 
-                SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/content-blocks/one-column.php');
+                SSMPB\hm_get_template_part( SSMPB_DIR . 'page-builder/content-blocks/one-column.php');
 
             } elseif (get_row_layout() == 'two_columns') {
 
-                SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/content-blocks/two-columns.php');
+                SSMPB\hm_get_template_part( SSMPB_DIR . 'page-builder/content-blocks/two-columns.php');
 
             } elseif (get_row_layout() == 'three_columns') {
 
-                SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/content-blocks/three-columns.php');
+                SSMPB\hm_get_template_part( SSMPB_DIR . 'page-builder/content-blocks/three-columns.php');
 
             } elseif (get_row_layout() == 'four_columns') {
 
-                SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/content-blocks/four-columns.php');
+                SSMPB\hm_get_template_part( SSMPB_DIR . 'page-builder/content-blocks/four-columns.php');
 
             } elseif (get_row_layout() == 'wrapper_close') {
 
-                SSMPB\hm_get_template_part( SSMPB_INC . 'page-builder/content-blocks/wrapper-close.php');
+                SSMPB\hm_get_template_part( SSMPB_DIR . 'page-builder/content-blocks/wrapper-close.php');
 
             }
 

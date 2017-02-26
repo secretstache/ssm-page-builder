@@ -10,3 +10,7 @@
   transform: translateY(-50%);
 
 }
+
+.acf-field.hide-label .acf-label label {
+  display: none;
+}

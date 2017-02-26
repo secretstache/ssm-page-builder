@@ -36,7 +36,7 @@ if ( have_rows( 'four_column_modules' ) ) {
 
     echo '<div class="small-12 medium-' . $grid_array[$pluck] . ' column col-' . $i . '">';
 
-      SSMPB\do_module( $template_args );
+      SSMPB\do_column( $template_args );
 
     echo '</div>';
 

@@ -30,7 +30,7 @@ if ( have_rows( 'full_width_modules' ) ) {
 
       echo '<div class="small-12 medium-' . $column_width . ' column">';
 
-        SSMPB\do_module( $template_args );
+        SSMPB\do_column( $template_args );
 
       echo '</div>';
 
