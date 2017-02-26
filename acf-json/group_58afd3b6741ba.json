@@ -19,10 +19,10 @@
             "endpoint": 0
         },
         {
-            "key": "field_58afd80174602",
-            "label": "Related Content",
-            "name": "related_content",
-            "type": "relationship",
+            "key": "field_58b358e23ddb1",
+            "label": "Latest or Curated",
+            "name": "latest_or_curated",
+            "type": "radio",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -31,7 +31,41 @@
                 "class": "",
                 "id": ""
             },
-            "post_type": [],
+            "choices": {
+                "Latest": "Latest",
+                "Curated": "Curated"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "Latest",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_58afd80174602",
+            "label": "Content to Show",
+            "name": "content_to_show",
+            "type": "relationship",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_58b358e23ddb1",
+                        "operator": "==",
+                        "value": "Curated"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post"
+            ],
             "taxonomy": [],
             "filters": [
                 "search",
@@ -41,6 +75,35 @@
             "min": "",
             "max": "",
             "return_format": "id"
+        },
+        {
+            "key": "field_58b35a1a3ddb2",
+            "label": "Number of posts to show",
+            "name": "number_of_posts_to_show",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_58b358e23ddb1",
+                        "operator": "==",
+                        "value": "Latest"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": 2
         },
         {
             "key": "field_58afd7ea74601",
@@ -97,5 +160,5 @@
     "hide_on_screen": "",
     "active": 0,
     "description": "",
-    "modified": 1487919270
+    "modified": 1488150964
 }

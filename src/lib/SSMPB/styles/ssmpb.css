@@ -11,6 +11,6 @@
 
 }
 
-.acf-field.hide-label .acf-label label {
+.acf-field.hide-label > .acf-label label {
   display: none;
 }

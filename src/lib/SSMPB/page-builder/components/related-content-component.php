@@ -2,14 +2,28 @@
 
 $c_classes = 'related';
 
-$related_content_ids = get_sub_field('related_content');
+$args = array(
+    'post_type'		=>	'post',
+    'status'		=>	'publish',
+);
 
-$args['post_type'] = array('post', 'page');
-$args['post__in'] = $related_content_ids;
-$args['orderby'] = 'post__in';
-$args['status'] = 'publish';
+if ( get_sub_field( 'latest_or_curated' ) == 'Curated' ) {
 
-$post_query = new WP_Query($args);
+    $content_ids = get_sub_field('content_to_show');
+
+    $args['post__in'] = $content_ids;
+    $args['orderby'] = 'post__in';
+
+} elseif ( get_sub_field( 'latest_or_curated' ) == 'Latest' ) {
+
+    $posts_per_page = get_sub_field( 'number_of_posts_to_show' );
+
+    $args['posts_per_page'] = $posts_per_page;
+    $args['orderby'] = 'date';
+
+}
+
+$post_query = new WP_Query( $args );
 
 ?>
 
@@ -25,6 +39,8 @@ $post_query = new WP_Query($args);
                     <?php the_title(); ?>
                 </a>
             </h2>
+
+            <p class="date"><?php echo get_the_date(); ?></p>
 
         <?php } ?>
 
