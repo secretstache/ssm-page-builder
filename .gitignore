@@ -33,3 +33,14 @@ src/lib/SSMPB/styles/.DS_Store
 !src/lib/SSMPB/functions/
 !src/lib/SSMPB/functions/*
 src/lib/SSMPB/functions/.DS_Store
+!assets/
+!assets/styles/
+!assets/styles/page-builder/
+!assets/styles/page-builder/*
+assets/styles/page-builder/.DS_Store
+!assets/styles/page-builder/components/
+!assets/styles/page-builder/components/*
+assets/styles/page-builder/components/.DS_Store
+!assets/styles/page-builder/sections/
+!assets/styles/page-builder/sections/*
+assets/styles/page-builder/sections/.DS_Store
